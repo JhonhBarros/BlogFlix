@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Substituir conteúdo da div com JSON</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar" data-bs-theme="">
+      <div><h1>BlogsFlix</h1></div>
+      <div class="user-icon">
+        <form class="d-flex" role="search">
+          <div class="input-group search-area">
+            <div class="input-group-preppend icon-search">
+              <span class="input-group-text icon-container"
+                ><i class="bi bi-search"></i>
+              </span>
+            </div>
+            <input
+              id="search-btn"
+              class="form-control form-control-sm"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </div>
+        </form>
+        <div class="user">
+          <i class="bi bi-person-check"></i>
+          <i class="bi bi-bell"></i>
+        </div>
+      </div>
+    </nav>
+
+    <div class="wrapper">
+      <section id="section1">
+        <a href="#section3" class="arrow__btn">‹</a>
+        <div class="item">
+          <img
+            src="https://occ-0-1567-1123.1.nflxso.net/dnm/api/v5/rendition/412e4119fb212e3ca9f1add558e2e7fed42f8fb4/AAAABRvngexxF8H1-OzRWFSj6ddD-aB93tTBP9kMNz3cIVfuIfLEP1E_0saiNAwOtrM6xSOXvoiSCMsihWSkW0dq808-R7_lBnr6WHbjkKBX6I3sD0uCcS8kSPbRjEDdG8CeeVXEAEV6spQ.webp"
+            alt="Describe Image"
+          />
+        </div>
+        <div class="item">
+          <img
+            src="https://occ-0-243-299.1.nflxso.net/dnm/api/v5/rendition/412e4119fb212e3ca9f1add558e2e7fed42f8fb4/AAAABZEK-7pZ1H5FD4cTyUb9qB_KeyJGz5p-kfPhCFv4GU_3mbdm8Xfsy4IBchlG9PFNdGff8cBNPaeMra72VFnot41nt0y3e8RLgaVwwh3UvyM2H2_MkmadWbQUeGuf811K7-cxJJh7gA.jpg"
+            alt="Describe Image"
+          />
+        </div>
+        <div class="item">
+          <img
+            src="https://occ-0-243-299.1.nflxso.net/dnm/api/v5/rendition/412e4119fb212e3ca9f1add558e2e7fed42f8fb4/AAAABQCoK53qihwVPLRxPEDX98nyYpGbxgi5cc0ZOM4iHQu7KQvtgNyaNM5PsgI0vy5g3rLPZdjGCFr1EggrCPXpL77p2H08jV0tNEmIfs_e8KUfvBJ6Ay5nM4UM1dl-58xA6t1swmautOM.webp"
+            alt="Describe Image"
+          />
+        </div>
+        <div class="item">
+          <img
+            src="https://occ-0-243-299.1.nflxso.net/dnm/api/v5/rendition/412e4119fb212e3ca9f1add558e2e7fed42f8fb4/AAAABdYtAqj8CyaJTWq5taD8Ro_UgwH3nne9QpFGVps-2J3IG-leqrfqXFii4jzZn48nPYTkrlwKQEV0R7_cEKlYBPRzdKqNODc-Oz26IL3LlLgFboXibIWXwxzeYxzuqn0I9TpARjeByw.jpg"
+            alt="Describe Image"
+          />
+        </div>
+        <div class="item">
+          <img
+            src="https://occ-0-243-299.1.nflxso.net/dnm/api/v5/rendition/412e4119fb212e3ca9f1add558e2e7fed42f8fb4/AAAABbcCX42tsqGbBvO2y9CQv5-7QvYbCfoHtXsuc6NPCtZaKa4l4fBX3XWvUwG9F2A3CTsNpHVmulxBbdXKwK8Q6xGjejd9FoadGkZ7CnGrSl601TOQjzSHJ23NuIPC8j0QMGORL4uRIA.jpg"
+            alt="Describe Image"
+          />
+        </div>
+        <a href="#section2" class="arrow__btn">›</a>
+      </section>
+      <section id="section2">
+        <a href="#section1" class="arrow__btn">‹</a>
+        <div class="item">
+          <img
+            src="https://occ-0-243-299.1.nflxso.net/dnm/api/v5/rendition/412e4119fb212e3ca9f1add558e2e7fed42f8fb4/AAAABVopDZ5Fy9_fk_HO5WxHTXKKjKhtWFupbSjuvPwfLK_vytzon4EwRUdGgYJ34JwPxOTK_NkV3aXfkULMB0Dcct-FyfqzH-X44VXuRMp4QeBHlvKwWeZFpZlGdItPzmmg4scmwhG7SQ.jpg"
+            alt="Describe Image"
+          />
+        </div>
+        <div class="item">
+          <img
+            src="https://occ-0-243-299.1.nflxso.net/dnm/api/v5/rendition/412e4119fb212e3ca9f1add558e2e7fed42f8fb4/AAAABTOj1-116yVcgKWMU2dI3GFR4x0fSkiGsqtLLeLUxRR7STaksjAqBTrYlTfrB8nIGnGvXksi0ewXAhVGg6-pLxpFOIfcpjK-pf8D5xehFZo5a6vJbo4L0AGbrzglbyUoq255QBJgRQ.jpg"
+            alt="Describe Image"
+          />
+        </div>
+        <div class="item">
+          <img
+            src="https://occ-0-243-299.1.nflxso.net/dnm/api/v5/rendition/a76057bcfd003711a76fb3985b1f2cf74beee3b8/AAAABd3IBDpxbRcHXvRMFCZeKa2aHLU1P4SJtrACMS9om3yhLjqPlvNlmR_fypPxjtbsbnKaC4JZhPSpDG4r_kdxSHHAltWguMcCB-1Y1OShr2zWfUv7Whf_39fNH5ZJ3_0gxQrs0akmQjQz44_LT7jXH5LMZ7iMBAzac5IEj4m7Fn_5OWEGYnVsDsKG-QTommDooULMDF9bEw.jpg"
+            alt="Describe Image"
+          />
+        </div>
+        <div class="item">
+          <img
+            src="https://occ-0-243-299.1.nflxso.net/dnm/api/v5/rendition/a76057bcfd003711a76fb3985b1f2cf74beee3b8/AAAABXSd7bhDddcwkq9XpksoQFCHVx29Sxl_h4hb2n3F2GIt32a4XWcOnctQfgnT5qdolv8UML6_xNB5CJ89h56wueb13mYmEBr0sx5e9iLPdtVcOQAOmKXKWHHXwFvJuCUwuNnL3s8eAQwqLXPVMHMEsujM684rUGrZNF2btN2GRy5-RyEslsxZO93V2Q_H2bWs8A8oayt1h5M.webp"
+            alt="Describe Image"
+          />
+        </div>
+        <div class="item">
+          <img
+            src="https://occ-0-243-299.1.nflxso.net/dnm/api/v5/rendition/a76057bcfd003711a76fb3985b1f2cf74beee3b8/AAAABbXWODpAWqVXcmmjMA7K-2mPkQpvwCLfSdeyhVXzR8A3MSpdSEnnjf4HEJJTYC-TnktU6njTUGAxmzWEYCaJbk4v_ZeL-7QGzmkvYBjg_N-evr2XmcX-Fanoyvu_nimFP4iigPe4O3Vr_WcgplhwkDrJwPUJa84wRLrNAx3TufN5V7cWRP4indqu5HQahvgFEqfL9zjp4g.jpg"
+            alt="Describe Image"
+          />
+        </div>
+        <a href="#section3" class="arrow__btn">›</a>
+      </section>
+      <section id="section3">
+        <a href="#section2" class="arrow__btn">‹</a>
+        <div class="item">
+          <img
+            src="https://occ-0-243-299.1.nflxso.net/dnm/api/v5/rendition/412e4119fb212e3ca9f1add558e2e7fed42f8fb4/AAAABRr4YxdaABuAuH_3FmSQZn7BCvLp-UUPsXE9MiYpvFP3CSUHV2zOew5oVqKqqdaOd3tbFVS0Uf67uIs7_eZydlCghg4nK0nMatRpPImABwTOhnNzCLCxdKrua7pPIcPCZqBYTeAO5g.jpg"
+            alt="Describe Image"
+          />
+        </div>
+        <div class="item">
+          <img
+            src="https://occ-0-243-299.1.nflxso.net/dnm/api/v5/rendition/412e4119fb212e3ca9f1add558e2e7fed42f8fb4/AAAABTyWK1MKaw8GcObtz47R2Tj7wkLJ7qQu9tk6TVpcoyxpzD4B-zZ569bQ5vGrREBL-MWFkGilXUwy7tCDaj2XOGkUB4RsbbFAmp9NgSr6lygMpUGNHSlyfrFbUORsRkrxSIoh_ggOvg.jpg"
+            alt="Describe Image"
+          />
+        </div>
+        <div class="item">
+          <img
+            src="https://occ-0-243-299.1.nflxso.net/dnm/api/v5/rendition/a76057bcfd003711a76fb3985b1f2cf74beee3b8/AAAABY7NwkWEJIfXsn6t3Li4bGSCQ1nEErPisI5ZZtXlC-_VRBZOUrhWK5X3vt3t6SR_cpgVhCwxgQqFFDJhk62Kk8hawOnYGZMr0LKeLczMFV2zalCFjkcdLksvT4HB2LEi6LFyruyk3Uu0LmNGsHfC2A8Bly60smr_3sDbz4RruXcklPOG1qYq9wUVu3zfaiwNvqmG4b8aFA.jpg"
+            alt="Describe Image"
+          />
+        </div>
+        <div class="item">
+          <img
+            src="https://occ-0-243-299.1.nflxso.net/dnm/api/v5/rendition/a76057bcfd003711a76fb3985b1f2cf74beee3b8/AAAABemXHOga9feFnOux6I2YyACBD94wvM7N3vcTGIfMpQ_BcaXeoeM9XyzdVdamKtxt0SHXZfvsl6czcp3E48tXMLtHBxuQsh1BjHtPGgJDZ81je_FjItINiqzLtir0A30s_e4KR8G3d7AYAPDjZVOY97bNpzNqtkcHcGp7fGnJByVCps1uLfG9U9tK3Ma1A_3JbRt0NiT2_Q.jpg"
+            alt="Describe Image"
+          />
+        </div>
+        <div class="item">
+          <img
+            src="https://occ-0-243-299.1.nflxso.net/dnm/api/v5/rendition/a76057bcfd003711a76fb3985b1f2cf74beee3b8/AAAABVxuRB932hvre-XP0gh6ar5ztoR3Oe3QjKHkyvcDnRak2MKXOrx5H7mFQSvggefMFOppwEs7ZCCpiqrJ_CYGvtvYB9NpU4SWUtNO6uV2u-DTID267AcHjHcGvGBQJ1ufddDkxcGOZyi5MlOQ5QUmBun4652FbYUnib3zMYQDgcna_Pvz8y_HO5fbokxezrRR1JZAAiqFSQ.jpg"
+            alt="Describe Image"
+          />
+        </div>
+        <a href="#section1" class="arrow__btn">›</a>
+      </section>
+    </div>
+
+    <div class="blogs">
+      <div class="blog">
+        <h2 id="01">Heartstopper</h2>
+        <img
+          src="https://encurtador.com.br/oxANZ"
+          alt=""
+          width="300"
+          height="400"
+        />
+        <p id="text-01">
+          Momentos emocionantes marcaram o desfecho da segunda temporada de
+          Heartstopper, deixando os fãs ansiosos por mais. Os protagonistas,
+          Charlie (Joe Locke) e Nick (Kit Connor), compartilharam uma conversa
+          profundamente emocional, revelando sentimentos muito fortes um pelo
+          outro...
+        </p>
+        <a href="">Ler mais</a>
+      </div>
+      <div class="blog">
+        <h2 id="02">The Witcher</h2>
+        <img
+          src="https://i.pinimg.com/564x/00/25/6c/00256c7e99a397f2beaa56e7589035f3.jpg"
+          alt=""
+          width="300"
+          height="400"
+        />
+        <p id="text-02">
+          Ao longo do terceiro ano, The Witcher cobriu muito terreno, arrastando
+          seus protagonistas por todo o continente. Nos episódios, enquanto
+          monarcas, magos e monstros do continente disputam para ver quem vai
+          capturá-lo, Geralt foge com Ciri. Assim, ele está determinado a
+          proteger a integrante da família que acabou de reencontrar...
+        </p>
+        <a href="">Ler mais</a>
+      </div>
+      <div class="blog">
+        <h2 id="03">13 reasons why</h2>
+        <img
+          src="https://i.pinimg.com/564x/12/3e/32/123e321154f5eaebd62a313ed44e5515.jpg"
+          alt=""
+          width="300"
+          height="400"
+        />
+        <p id="text-03">
+          13 Reasons Why é uma série de televisão norte-americana, dirigida por
+          Brian Yorkey, lançada em março de 2017 no Netflix. Baseada na obra
+          literária Os 13 Porquês de Jay Asher, a série conta com duas
+          temporadas, a segunda lançada em maio de 2018. Abordando assuntos
+          polêmicos que afetam muitos jovens como depressão, bullying,
+          isolamento, abuso sexual e suicídio, a série foi um sucesso imediato,
+          conquistando a atenção de público por todo o mundo...
+        </p>
+        <a href="">Ler mais</a>
+      </div>
+
+      <div class="blog">
+        <h2 id="04">Elite</h2>
+        <img
+          src="https://i.pinimg.com/564x/dd/8c/62/dd8c6237ae9fcb00d62153949eeaa145.jpg"
+          alt=""
+          width="300"
+          height="400"
+        />
+        <p id="text-04">
+          No meio de toda essa loucura que provavelmente será a 3ª temporada, já
+          foram confirmados 2 novos personagens: Malick e Yeray. Eles serão os
+          primeiros estudantes negros do elenco principal e, segundo
+          informações, vão trazer ao enredo polêmicas sobre questões de racismo
+          e gordofobia. Os atores que vão interpretá-los são, respectivamente,
+          Leïti Sene e Sergio Momo (El Vecino). Além dos novos personagens, os
+          fãs estão torcendo por um possível retorno de Christian (Miguel
+          Herrán) e Nano (Jaime Lorente) ao seriado, pois eles ficaram meio de
+          lado na 2ª temporada...
+        </p>
+        <a href="">Ler mais</a>
+      </div>
+      <div class="blog">
+        <h2 id="05">Makanai</h2>
+        <img
+          src="https://i.pinimg.com/564x/6f/a5/40/6fa5406a519dc7661868886c1e12999d.jpg"
+          alt=""
+          width="300"
+          height="400"
+        />
+        <p id="text-05">
+          A trama de Makanai: Cozinhando para A Casa Maiko se passa no distrito
+          de gueixas de Kyoto, no qual a protagonista Kiyo (Nana Mori) se torna
+          uma makanai (cozinheira) de uma casa onde as maikos (aprendizes de
+          gueixa) moram juntas. Ali é retratado o cotidiano de Kiyo e sua melhor
+          amiga, Sumire (Natsuki Deguchi).
+        </p>
+        <a href="">Ler mais</a>
+      </div>
+      <div class="blog">
+        <h2 id="06">Your name</h2>
+        <img
+          src="https://i.pinimg.com/564x/e9/15/50/e915502258c61a9dafffcd1532c29cb4.jpg"
+          alt=""
+          width="300"
+          height="400"
+        />
+        <p id="text-06">
+          Mitsuha Miyamizu é uma jovem que mora no interior do Japão e que
+          deseja deixar sua pequena cidade para trás para tentar a sorte em
+          Tóquio. Enquanto isso, Taki Tachibana, é um jovem que trabalha em um
+          restaurante italiano em Tóquio, e deseja largar o seu emprego para
+          tentar se tornar um arquiteto. Os dois não se conhecem, mas estão
+          direta e misteriosamente conectados pelas imagens de seus sonhos.
+        </p>
+        <a href="">Ler mais</a>
+      </div>
+      <div class="blog">
+        <h2 id="07">CSI Las vegas</h2>
+        <img
+          src="https://i.pinimg.com/564x/3d/ee/81/3dee811fbce62530c337a17b0f6ed285.jpg"
+          alt=""
+          width="300"
+          height="400"
+        />
+        <p id="text-07">
+          Las Vegas, o cenário principal da série. CSI consiste em relatar as
+          investigações de um grupo de cientistas forenses do Laboratório de
+          Criminalística da polícia de Las Vegas, Nevada. Estes peritos
+          desvendam mortes em circunstâncias misteriosas, pouco comuns e algumas
+          aparentemente impossíveis de se resolver.
+        </p>
+        <a href="">Ler mais</a>
+      </div>
+      <div class="blog">
+        <h2 id="08">Royals Young</h2>
+        <img
+          src="https://i.pinimg.com/564x/85/65/84/85658465af2818c08ba5cb82d075ef6c.jpg"
+          alt=""
+          width="300"
+          height="400"
+        />
+        <p id="text-08">
+          A série Young Royals foi renovada para sua terceira e última
+          temporada, nesta quarta-feira (14), pela Netflix, em anúncio no
+          Twitter. Com previsão para estrear apenas em 2023, o seriado teen é
+          sueco e foi lançado originalmente em julho de 2021 no catálogo,
+          tornando-se uma das produções mais populares do serviço.
+        </p>
+        <a href="">Ler mais</a>
+      </div>
+      <div class="blog">
+        <h2 id="09">Fate saga winx</h2>
+        <img
+          src="https://i.pinimg.com/564x/48/20/20/48202053e6ce6f9aface72ff6d7d20c0.jpg"
+          alt=""
+          width="300"
+          height="400"
+        />
+        <p id="text-09">
+          Fate: A Saga Winx é uma série live-action baseada na popular série
+          animada Clube das Winx. A série gira em torno de seis fadas populares
+          que devem aprender a controlar seus poderes mágicos freqüentando uma
+          escola em um mundo fantástico. Alfea é uma escola situada no
+          Outromundo que tem por objetivo formar as fadas e instruí-las na arte
+          da magia que já existe há milhares de anos. Apesar disso, nenhuma fada
+          que esteve em Alfea se parece com Bloom (Abigail Cowen), que foi
+          criada no mundo humano. Bloom é uma fada impulsiva, gentil e perigosa
+          para aqueles ao seu redor...
+        </p>
+        <a href="">Ler mais</a>
+      </div>
+      <div class="blog">
+        <h2 id="10">One piece</h2>
+        <img
+          src="https://i.pinimg.com/564x/0d/9f/39/0d9f39bcbb0e8c34f0f0da83389bff63.jpg"
+          alt=""
+          width="300"
+          height="400"
+        />
+        <p id="text-10">
+          Ei, pessoal! Se você é um fã de anime e mangá, com certeza já ouviu
+          falar da famosa saga de One Piece. Eu, como um grande admirador desse
+          universo épico, decidi compartilhar com vocês uma lista completa de
+          episódios para quem quer se aventurar nessa história emocionante e
+          cheia de mistérios. Prepare-se para conhecer os personagens mais
+          incríveis, as lutas mais épicas e os segredos mais surpreendentes.
+          Então, prepare a pipoca e venha comigo desvendar a Saga de One Piece!.
+        </p>
+        <a href="">Ler mais</a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

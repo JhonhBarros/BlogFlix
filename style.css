@@ -1,0 +1,213 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#minhaDiv {
+  padding: 20px;
+  border: 1px solid rgb(196, 142, 142);
+  margin: 20px;
+}
+
+body {
+  background-color: hsl(0deg 0% 7.84%);
+  font-family: "Roboto";
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  padding: 16px;
+  text-align: center;
+  color: rgb(173, 27, 27);
+}
+
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 16px;
+}
+
+.blog {
+  padding: 0.5rem;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.445);
+  border-radius: 4px;
+  color: white;
+}
+
+.blog:hover {
+  box-shadow: 0 0 1px 3px rgba(0, 0, 0, 0.445);
+}
+
+.navbar {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#search-btn {
+  height: 40px;
+  padding: 5px;
+  background-color: black;
+  border-radius: 0;
+  color: white;
+  border: none;
+}
+
+.icon-search {
+  height: 40px;
+  padding: 5px;
+  background-color: black;
+  border-radius: 0;
+  color: white;
+}
+
+.icon-container {
+  background-color: black;
+  border: none;
+  height: 28px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-area {
+  border: 1px solid white;
+}
+
+.image-carr {
+  width: 900;
+  height: 500;
+}
+
+.user-icon {
+  height: 40px;
+  padding: 5px;
+  background-color: black;
+  border-radius: 0;
+  color: white;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+
+/* Estilos para o elemento HTML */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Estilos para o corpo da página */
+body {
+  margin: 0;
+  background-color: #000;
+}
+
+/* Estilos para cabeçalhos <h1> */
+h1 {
+  font-family: Arial;
+  color: red;
+  text-align: center;
+}
+
+/* Estilos para o elemento com classe .wrapper */
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 100%);
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Estilos para seções dentro de .wrapper */
+.wrapper section {
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  margin: 20px 0;
+}
+
+/* Estilos para elementos com classe .item dentro de seções */
+.wrapper section .item {
+  padding: 0 2px;
+  transition: 250ms all;
+}
+
+/* Estilos para links <a> dentro de seções */
+.wrapper section a {
+  position: absolute;
+  color: #fff;
+  text-decoration: none;
+  font-size: 6em;
+  background: rgb(0, 0, 0);
+  width: 80px;
+  padding: 20px;
+  text-align: center;
+  z-index: 1;
+}
+
+/* Estilos para o primeiro link <a> dentro de seções */
+.wrapper section a:nth-of-type(1) {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    -90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+/* Estilos para o segundo link <a> dentro de seções */
+.wrapper section a:nth-of-type(2) {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+/* Estilos para o link com classe .arrow__btn em telas menores */
+@media only screen and (max-width: 600px) {
+  a.arrow__btn {
+    display: none;
+  }
+}
+
+#text-01,
+#text-02,
+#text-03,
+#text-04,
+#text-05,
+#text-06,
+#text-07,
+#text-08,
+#text-09,
+#text-10 {
+  width: 300px;
+  margin: 10px;
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box; /* Define a exibição como uma caixa flexível para compatibilidade com navegadores baseados no motor WebKit */
+  -webkit-line-clamp: 3; /* Limita o número de linhas para 3 (ajuste conforme necessário) */
+  -webkit-box-orient: vertical; /* Orientação vertical das caixas */
+  overflow: hidden;
+}
